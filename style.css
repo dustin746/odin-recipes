@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(197, 196, 196);
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    margin: 20px;
+    padding: 0.4rem;
+    border: 5px black solid;
+    color: black;
+}
+
+h2 {
+    text-decoration: underline 3px;
+}
+
+li {
+    text-align: center;
+}
+
+.card {
+    display: inline-block;
+    margin: 50px;
+    background-color: white;
+    padding: 25px;
+    border: 5px black solid;
+    color: black;
+}
+
+.card:hover {
+    background-color: rgb(204, 211, 218);
+}
+
+.description-card {
+    text-align: center;
+    background-color: white;
+    margin: 15px;
+    border: 5px black solid;
+}
+
+.ingredients-card {
+    text-align: center;
+    background-color: white;
+    margin: 15px;
+    border: 5px black solid;
+}
+
+.steps-card {
+    text-align: center;
+    background-color: white;
+    margin: 15px;
+    border: 5px black solid;
+}
