@@ -1,55 +1,62 @@
 body {
-    background-color: rgb(197, 196, 196);
+    background-color: #ADAABF;
 }
 
 h1 {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
+    background-color: #EAF7CF;
     margin: 20px;
     padding: 0.4rem;
-    border: 5px black solid;
-    color: black;
+    border: 5px #5f545c solid;
+    color: #5f545c;
 }
 
 h2 {
     text-decoration: underline 3px;
+    color: #5f545c;
 }
 
 li {
     text-align: center;
+    color: #5f545c;
+}
+
+p {
+    color: #5f545c;
 }
 
 .card {
     display: inline-block;
     margin: 50px;
-    background-color: white;
+    background-color: #EAF7CF;
     padding: 25px;
-    border: 5px black solid;
-    color: black;
+    border: 5px #5f545c solid;
+    color: #5f545c;
+    border-radius: 10%;
 }
 
 .card:hover {
-    background-color: rgb(204, 211, 218);
+    background-color: #d4d8ad;
 }
 
 .description-card {
     text-align: center;
-    background-color: white;
+    background-color: #EAF7CF;
     margin: 15px;
     border: 5px black solid;
 }
 
 .ingredients-card {
     text-align: center;
-    background-color: white;
+    background-color: #EAF7CF;
     margin: 15px;
     border: 5px black solid;
 }
 
 .steps-card {
     text-align: center;
-    background-color: white;
+    background-color: #EAF7CF;
     margin: 15px;
     border: 5px black solid;
 }
